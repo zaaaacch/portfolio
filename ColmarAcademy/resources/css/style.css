@@ -1,0 +1,264 @@
+* {
+    font-family: 'Red Hat Display';
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box; /* Add this line */
+}
+
+.logo-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 16px;
+}
+
+main, footer {
+    padding-top: 64px;
+}
+
+#intro {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+#intro img{
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+#intro .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 32px;
+}
+
+#intro h1 {
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
+
+#intro button {
+    width: 200px;
+    height: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 24px;
+}
+
+#practice {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 32px 24px;
+}
+
+#practice img {
+    width:100%;
+    height:auto;
+}
+
+#practice .text-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 90%;
+}
+
+#practice .text-container h2 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+#middle {
+    display: flex;
+}
+.dates-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.date-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.date-block img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.date-block .text-container {
+    width: 65%;
+    display: block;
+}
+
+#courses {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100% - 32px);
+    box-sizing: border-box;
+    margin: 16px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column; /* Stack the image and text content vertically */
+    background-color: white; /* Make the block white */
+    margin-bottom: 16px; /* Add space between blocks */
+    width: 30%;
+    margin: 16px;
+    box-sizing: border-box
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+}
+
+.block .text-container {
+    padding: 16px;
+}
+
+#courses h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#courses .text-container h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#courses .text-container h3, h6 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#courses .text-container h6, p {
+    color: grey;
+}
+
+#thesis {
+    display: flex;
+    flex-direction: column;
+}
+
+#thesis h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#thesis video {
+    width: 60%;
+    height: auto;
+    padding-right: 24px;
+}
+
+#blocks {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.exhibit {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.exhibit img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.date-block .text-container {
+    width: 65%;
+    display: block;
+}
+
+#exhb {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 32px 24px;
+}
+
+#exhb video {
+    width: 100%;
+    height:auto;
+}
+
+#exhb .text-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 50%;
+}
+
+#exhb .text-container h4 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+#rest {
+    display: flex;
+    flex-direction: row; /* Change from column to row */
+    width: 100%;
+    justify-content: space-between; /* Add this line to create space between the video/text and image/text */
+}
